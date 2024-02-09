@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Marketplace{
+position: relative;
+margin-top: 4.5%;
+background-color: rgb(244, 238, 238);
+/* background-color: rgb(143, 183, 218); */
+width: 100%;
+}
+@media screen and (max-width:1024px) {
+    .Marketplace{
+        margin-top: 6%;
+    }
+    .section1{
+        margin-top: 10%;
+
+    }
+    
+}
+@media screen and (max-width:768px) {
+    .Marketplace{
+        margin-top: 12%;
+    }
+    
+}
+@media screen and (max-width:688px) {
+    .Marketplace{
+        margin-top: 15%;
+        /* width: 100%; */
+    }
+    
+}
+@media screen and (max-width:425px) {
+    .Marketplace{
+        margin-top: 25%;
+        /* width: 100%; */
+    }
+    
+}
+@media screen and (max-width:320px) {
+    .Marketplace{
+        margin-top: 35%;
+        /* width: 100%; */
+    }
+    
+}

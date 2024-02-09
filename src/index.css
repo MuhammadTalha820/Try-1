@@ -1,0 +1,72 @@
+/* index.css */
+
+/* Reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Styling for the entire navbar */
+.Navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #647af8; /* Change to your preferred background color */
+  padding: 10px 20px;
+}
+
+/* Styling for the heading */
+.heading h1 {
+  color: white; /* Change to your preferred text color */
+  font-size: 24px;
+}
+span{
+  color: whitesmoke;
+}
+
+/* Styling for navigation links */
+.NavData {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.NavData li a {
+  text-decoration: none;
+  color: white; /* Change to your preferred text color */
+  font-weight: bold;
+  transition: color 0.3s ease;
+
+}
+
+ul{
+  list-style: none;
+  display: flex;
+  gap: 16px;
+}
+.NavData li a:hover {
+  color: #f5a623; /* Change to your preferred hover color */
+}
+
+/* Styling for social media icons */
+.HeroSection ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.HeroSection ul li a {
+  text-decoration: none;
+  color: white; /* Change to your preferred text color */
+  font-size: 24px;
+  transition: color 0.3s ease;
+}
+
+.HeroSection ul li a:hover {
+  color: #f5a623; /* Change to your preferred hover color */
+}
+section{
+  text-align: center;
+  margin-top: 55px;
+}

@@ -1,0 +1,99 @@
+.Story {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  gap: 3%;
+  overflow-x: scroll;
+  padding: 10px;
+  max-width: 100%;
+  margin: 5px 10px;
+  /* border: 1px solid red; */
+  box-shadow: 2px 5px 4px rgba(0, 0, 0, 0.2);  
+
+  background-color: white;  
+  border-radius: 10px;  
+}
+
+
+.StoryItem {
+  transition: all 0.2s ease-in;
+  /* border: 1px solid rgb(12, 159, 218); */
+  min-width: 20%;
+  position: relative;
+}
+.StoryItem:hover{
+  transform: scale(1.07);
+  cursor: pointer;
+}
+
+.StoryImageContainer {
+  width: 100%;
+  /* border: 1px solid rgb(37, 169, 53); */
+  height: 30vh;
+  border-radius: 15px;
+  overflow: hidden;
+  border: 2px solid #e1306c;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2);
+  
+}
+
+.background_img {
+  width: 100%;  
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.StoryUser {
+  display: flex;
+  /* border: 1px solid rgb(161, 14, 66); */
+
+  align-items: center;
+  margin-top: 5px;
+  position: absolute;
+  bottom: 2px;
+  left: 3%;
+
+}
+
+.profile_img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+  padding: 3px;
+  border: 2px solid  #e1306c;
+}
+
+.person_name {
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+  position: absolute;
+  top: -6.5rem;
+  right:0 ;
+}
+.Story::-webkit-scrollbar{
+  display: none;
+}
+@media screen and (max-width: 425px) and (min-width:300px) {
+  .StoryItem {
+    max-width: 50%;
+  }
+  .StoryImageContainer{
+    width: 100%;
+  }
+  .person_name{
+    font-size: 10px;
+    font-weight: bold;
+    left: 0;
+    
+  }
+}
+
+
+
+
+
+
+

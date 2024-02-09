@@ -1,0 +1,105 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.Widget{
+    flex: 2;
+    max-width: 18%;
+    /* border: 1px solid red; */
+    margin: 5px;
+    padding: 5px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    position: fixed;
+    right: 0;
+    top: 15%;
+    bottom: 0;
+}
+::-webkit-scrollbar{
+    width: 5px;
+
+  }
+::-webkit-scrollbar {
+    width: 10px; /* Width of the scrollbar */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 5px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  
+  ::-webkit-scrollbar-corner {
+    background: transparent;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 0.5em;
+    background: transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  ::-webkit-scrollbar-button {
+    display: none;
+  }
+.birthday_container{
+    display: flex;
+    margin: 7px 3px;
+
+}
+.birthday_container img{
+    width: 12vw;
+    height: 15vh;
+    object-fit: cover;
+    border-radius: 50%;
+    background-color: transparent;
+}
+.birthday_text{
+    color: black;
+    font-weight: 444;
+    font-size: 1.2rem;
+    margin-top: 11px;
+    margin-left: 5px;
+}
+.Advertisement{
+    margin:6px 0;
+    max-width: 16%;
+
+}
+.Advertisement img{
+width: 16.5vw;
+height: 27vh;
+}
+@media screen and (max-width:768px) {
+    .Widget{
+        margin-top: 5%;
+        right: .5%;
+    }
+    .birthday_container .birthday_text{
+      font-size: 1rem;
+
+    }
+
+    
+}
+@media screen and (max-width:688px) {
+    .Widget{
+        display: none;
+    }
+
+    
+}

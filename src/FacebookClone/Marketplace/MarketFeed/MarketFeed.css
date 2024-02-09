@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .MarketFeed {
+      position: relative;
+      margin: 5% 0;
+      margin-left: 30%;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next row on small screens */
+    justify-content: space-evenly;
+    background-color: white;
+    border-radius: 15px;
+    width: 70%;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 20px; /* Add some spacing between items */
+  }
+  
+  .saleinfo {
+    position: relative;
+    box-shadow: 0px 2px 4px rgba(168, 242, 94, 2);
+    /* flex: 0 0 calc(25% - 20px); Adjust the width of items based on screen size */
+    margin: 10px; /* Add margin between items */
+    text-align: center;
+    height: auto;
+    width: 15%;
+}
+
+.saleimage {
+      transition: transform .2s ease-in;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+    position: relative;
+}
+.saleimage:hover{
+      transform: scale(1.05);
+
+  }
+  
+  .saleimage img {
+    max-width: 100%; /* Make sure images don't exceed their container */
+    height: auto; /* Maintain aspect ratio */
+    height: 15vh;
+    object-fit: cover;
+  }
+  @media screen and (max-width:688px) {
+    .MarketFeed{
+        width: 100%;
+        margin-left: 0;
+    }
+    .saleimage{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .saleinfo{
+        width: 30%;
+        height: auto;
+    }
+    
+  }

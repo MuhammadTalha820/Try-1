@@ -1,0 +1,225 @@
+.Homenavbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: #1877f2; */
+    background-color: white;
+    padding: 10px 20px;
+    color: black;
+    top: 0;
+    width: 100vw;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);  
+    /* position: relative; */
+    position: fixed;
+    z-index: 100;
+}
+.active{
+  color: #1877f2;
+  border-bottom: 2px solid  #1877f2 ;
+  
+}
+
+/*  LeftNavbar start*/
+  
+  .leftnavbar {
+    display: flex;
+    align-items: center;
+    flex: .3;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+  
+  .inputinfo {
+    display: flex;
+    align-items: center;
+    background-color: rgb(243, 238, 238);
+    border-radius: 20px;
+    padding: 5px 10px;
+
+  }
+  
+  .searchicon {
+    color: #1877f2;
+  }
+  
+  .searchinput {
+    border: none;
+    outline: none;
+    padding: 5px;
+  }
+/*  LeftNavbar end*/
+
+/*  MidelNavbar start*/
+
+
+.midlenavbar {
+      /* border: 1px solid red; */
+      flex: .5;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+
+  }
+ 
+  .header_option{
+    padding: 2px 5px;
+}
+.header_option svg{
+  color: none;
+
+    font-size: 2rem;
+}
+  .header_option:hover{
+    background-color: lightgrey;
+    color: #1877f2;
+    border-radius: 4px;    
+  }
+  .actives{
+    color: #1877f2;
+  }
+/*  MidleNavbar End*/
+/*  Rightbar Start*/
+
+  
+  .rightnavbar {
+    display: flex;
+    flex: .3;
+    /* border:1px solid red ; */
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 8px;
+
+
+  }
+  .header_info{
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px 5px;
+    
+  }
+  .header_info svg{
+    font-size: 2rem;
+  }
+  .header_info:hover{
+    background-color: lightgrey;
+    color: #1877f2;
+    border-radius: 4px;
+    
+  }
+  .Navbar_Menuicon{
+    display: none;
+  }
+
+/*  Rightbar End*/
+
+
+/*  Media Query start*/
+@media screen and (max-width:768px) {
+    .Homenavbar{
+        width: 100vw;
+    }
+    .leftnavbar{
+        flex:.2;
+    }
+    .logo{
+        width: 35px;
+        height: 35px;
+    }
+    .inputinfo{
+        padding:3px 5px ;
+    }
+    .midlenavbar{
+        flex:.4;
+
+    }
+    .header_option svg{
+        font-size: 1.6rem;
+    }
+    .rightnavbar{
+        flex:.2;
+        margin-left: 5px;
+        
+    }
+    .header_info svg{
+        font-size: 1.6rem;
+      }
+        .Mobile_menu{
+        position: fixed;
+        display: flex;
+        right: 0;
+        top:0;
+        height: 100vh;
+        width: 100%;
+        background-color: lightgrey;
+        flex-direction: column;
+        align-items: center;
+      }
+      
+  
+       .mobileinfo{
+        display: flex;
+        align-items: center;
+        gap: 4%;
+        width: 80%;
+        /* border: 2px solid red; */
+        margin-top: 3%;
+        height: 11%;
+        border-bottom: 1px solid black;
+      }
+      .mobileinfo svg{
+        font-size: 2rem;
+      }
+      .Sidebarmobile{
+        position: fixed;
+        display: flex;
+        right: 0;
+        top:0;
+        height: 100vh;
+        width: 100%;
+        background-color: lightgrey;
+        flex-direction: column;
+        align-items: center;      } 
+      
+      
+    
+      @media screen and (max-width:600px) {
+}
+    .Homenavbar{
+        flex-direction: column;
+    }
+    .leftnavbar,.midlenavbar{
+        width: 100%;
+        flex:.5
+    }
+    .midlenavbar{
+        margin-top: 10px;
+    }
+    .rightnavbar{
+        display: none;
+    }
+    .Navbar_Menuicon{
+        display: block;
+        position: absolute;
+        right:20px;
+        top:17px;
+        transition: transform 0.3s ease-in;
+        
+    }
+
+    .Navbar_Menuicon:hover{
+        cursor:pointer;
+        transform: scale(1.75);         
+    }
+
+    
+    
+}
+
+/*  Media Query*/

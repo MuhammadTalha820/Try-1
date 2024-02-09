@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.FriendRequest{
+    width: 100%;
+    /* border: 1px solid red; */
+    margin: 1% 0%;
+}
+.heading{
+    
+    margin-top: 2%;
+}
+.Profiles{
+    display: flex;
+   align-items: center;
+}
+.profileimage img{
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    padding: .5%;
+    margin: .5%;
+}
+.profileinfo{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1%;
+    width: 100%;
+    /* border: 1px solid red; */
+    
+}
+.requestbtn{
+    display: flex;
+     /* border: 1px solid red; */
+     justify-content: start;
+     height: auto;
+}
+.btn{
+    width: 50%;
+    margin-left: -.01%;
+    margin-right: 5%;
+    border-radius: 10px;
+    font-size: large;
+}
+.delete{
+    background-color:rgb(235, 229, 229);
+}
+.confirm{
+    background-color:#1877f2
+}
+.Add_Friend{
+    background-color:#1877f2
+    
+}.Remove{
+    background-color:rgb(235, 229, 229);
+    
+}
+@media screen and (max-width:320px) {
+    
+    .profileimage img{
+        border-radius: 50%;
+        width: 60px;
+        height: 60px;
+        padding: .5%;
+        margin: .5%;
+    }
+    .btn{
+        font-size: medium;
+    }
+}

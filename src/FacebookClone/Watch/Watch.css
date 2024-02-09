@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Watchpage{
+position: relative;
+margin-top: 4.5%;
+background-color: rgb(244, 238, 238);
+/* background-color: rgb(143, 183, 218); */
+width: 100%;
+}
+@media screen and (max-width:1024px) {
+    .Watchpage{
+        margin-top: 6%;
+    }
+    
+}
+@media screen and (max-width:768px) {
+    .Watchpage{
+        margin-top: 12%;
+    }
+    
+}
+@media screen and (max-width:688px) {
+    .Watchpage{
+        margin-top: 15%;
+        /* width: 100%; */
+    }
+    
+}
+@media screen and (max-width:425px) {
+    .Watchpage{
+        margin-top: 25%;
+        /* width: 100%; */
+    }
+    
+}
+@media screen and (max-width:320px) {
+    .Watchpage{
+        margin-top: 35%;
+        /* width: 100%; */
+    }
+    
+}

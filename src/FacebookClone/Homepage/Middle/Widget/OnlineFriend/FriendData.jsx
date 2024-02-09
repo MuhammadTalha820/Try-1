@@ -1,0 +1,50 @@
+
+const FriendData=[
+    {
+    id:"1",
+    img:"https://images.pexels.com/photos/8114406/pexels-photo-8114406.jpeg?auto=compress&cs=tinysrgb&w=600",
+    name:"Usman"
+    },
+    {
+    id:"2",
+    img:"https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=600",
+    name:"Ali"
+    },
+    {
+    id:"3",
+    img:"https://images.pexels.com/photos/771742/pexels-photo-771742.jpeg?auto=compress&cs=tinysrgb&w=600",
+    name:"Hamza"
+    },
+    {
+    id:"4",
+    img:"https://images.pexels.com/photos/1059823/pexels-photo-1059823.jpeg?auto=compress&cs=tinysrgb&w=600",
+    name:"Ubaid"
+    },
+    {
+    id:"5",
+    img:"https://images.pexels.com/photos/3396657/pexels-photo-3396657.jpeg?auto=compress&cs=tinysrgb&w=600",
+    name:"Abu_bakar"
+    },
+    {
+    id:"6",
+    img:"https://images.pexels.com/photos/3850526/pexels-photo-3850526.jpeg?auto=compress&cs=tinysrgb&w=600",
+    name:"Haider"
+    },
+    {
+    id:"7",
+    img:"https://images.pexels.com/photos/41315/africa-african-animal-cat-41315.jpeg?auto=compress&cs=tinysrgb&w=600",
+    name:"Omer"
+    },
+    {
+    id:"8",
+    img:"https://images.pexels.com/photos/14934612/pexels-photo-14934612.jpeg?auto=compress&cs=tinysrgb&w=600",
+    name:"Zeeshan"
+    },
+    {
+    id:"9",
+    img:"https://images.pexels.com/photos/15379/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=600",
+    name:"Muneeb"
+    },
+
+]
+export default FriendData;

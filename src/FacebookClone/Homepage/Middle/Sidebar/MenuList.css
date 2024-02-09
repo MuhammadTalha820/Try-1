@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Menulist{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+.Menulist:hover{
+    background-color: rgba(211 211 211/40%);
+}
+.MenuIcon{
+    padding: .3rem;
+    cursor: pointer;
+    font-size: 2rem;
+    
+}
+.Menutitle{
+    font-weight: 555;
+    padding: .3rem;
+}
+@media  screen and (max-width:768px) {
+    
+.Menulist{
+
+    padding: 5px;
+    display: flex;
+    align-items: center;
+}
+.Menulist:hover{
+    background-color: rgba(211 211 211/40%);
+}
+.MenuIcon{
+    padding: .2rem;
+    cursor: pointer;
+    font-size: 2rem;
+    
+}
+.Menutitle{
+    font-weight: 555;
+    padding: .2rem;
+}
+}
+/* @media screen and (max-width:688px) {
+    .Menutitle{
+        display: none;
+    }
+}
+
+} */

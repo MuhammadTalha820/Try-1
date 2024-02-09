@@ -1,0 +1,24 @@
+.modelwrapper {
+    background-color: rgba(189, 189, 189, 0.9); /* Semi-transparent background */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; /* Take up the entire width of the screen */
+    height: 100%; /* Take up the entire height of the screen */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    border: 1px solid black;
+    padding: 20px;
+    
+    /* Add some padding for content */
+}

@@ -1,0 +1,15 @@
+.Onlinefriend{
+    margin: 5px;
+    padding: 5px;
+
+}
+.userdatalist{
+    display: flex;
+    align-items: center;
+}
+.userimage{
+    width: 4vw;
+    height: 6vh;
+    border-radius:50% ;
+    object-fit: cover;
+}

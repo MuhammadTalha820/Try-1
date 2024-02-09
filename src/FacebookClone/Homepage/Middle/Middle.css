@@ -1,0 +1,31 @@
+.Middle {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+    margin: 5px 0px;
+    background-color: rgb(243, 239, 239);
+    padding-top:5%;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  
+  .MiddleSidebar {
+    position: fixed;
+    flex: 2; /* Adjust flex value as needed */
+    
+    /* Add any other styling as needed */
+  }
+  
+  .MiddlFeed {
+    /* position: fixed; */
+    flex: 6; /* Adjust flex value as needed */
+    /* Add any other styling as needed */
+  }
+  
+  .MiddleWidget {
+    position: fixed;
+    flex: 2; /* Adjust flex value as needed */
+  /* Set minimum width */
+    /* Add any other styling as needed */
+  }
+  

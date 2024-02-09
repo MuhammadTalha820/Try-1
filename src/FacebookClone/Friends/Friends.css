@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Friends{
+    margin-top: 5%;
+    padding: 1% 1%;
+}
+@media screen and (max-width:1024px) {
+    .Friends{
+        margin-top: 6%;
+    }
+    
+}
+@media screen and (max-width:768px) {
+    .Friends{
+        margin-top: 12%;
+    }
+    
+}
+@media screen and (max-width:688px) {
+    .Friends{
+        margin-top: 15%;
+        /* width: 100%; */
+    }
+    
+}
+@media screen and (max-width:425px) {
+    .Friends{
+        margin-top: 25%;
+        /* width: 100%; */
+    }
+    
+}
+@media screen and (max-width:320px) {
+    .Friends{
+        margin-top: 35%;
+        /* width: 100%; */
+    }
+    
+}

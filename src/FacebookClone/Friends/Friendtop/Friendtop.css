@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Friendtop{
+    
+    border-bottom: 1px solid black;
+
+}
+.Friend_title{
+    padding-bottom: .2%;
+    font-size: 2rem;
+    font-weight: 555;
+
+}
+.topinfo{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.topinfo_btn{
+    background-color: rgb(241, 238, 238);
+    font-size: 1rem;
+    font-weight: 450;
+    border-radius: 20px;
+    margin: .2%;
+    padding: .5%;
+    border: none;
+    cursor: pointer;
+}

@@ -1,0 +1,68 @@
+.Messagebox{
+    width: 98%;
+    border-radius: 15px;
+    background-color: white;
+    /* border: 1px solid red; */
+    padding: 5px 20px;
+    margin: 15px 20px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);  
+}
+/*top side of message box */
+
+.topbox{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 10px;
+    margin-top: 13px;
+}
+.topbox svg{
+    font-size: 3rem;
+}
+.topbox input{
+    /* width:  */
+    width: 100%;
+    /* border: 1px solid red; */
+    border: none;
+    outline: none;
+    background-color: lightgray;
+    height: 2.2rem;
+    border-radius: 15px;
+    padding: 2px 15px;
+    font-size: 1.2rem;    
+}
+
+/*bottom side of message box */
+.bottombox {
+    margin-top: 5px;
+
+}
+.actionbox{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 5px 10px;
+}
+
+.actioninfo{
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: 555;
+    transition: transform 0.2s ease-in;
+    cursor: pointer;
+}
+.actioninfo:hover{
+    transform: scale(1.07);
+}
+.actioninfo svg{
+    margin: 0px 2px;
+}
+
+
+@media screen and (max-width: 425px) and (min-width:200px) {
+    .actioninfo{
+        font-size: 1rem;
+    }
+  }

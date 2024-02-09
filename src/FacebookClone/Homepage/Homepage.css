@@ -1,0 +1,9 @@
+.Middle{
+    margin-top: 5%;
+}
+@media screen and (max-width:768px) {
+    .Middle{
+        margin-top: 10%;
+    }
+    
+}
